@@ -2,12 +2,12 @@
 
 This project applies natural language processing (NLP) techniques to perform sentiment analysis on Amazon Fine Food Reviews. It classifies customer reviews into positive, neutral, or negative sentiments using a logistic regression model trained on TF-IDF features.
 
-##📝 Files in This Project
+## 📝 Files in This Project
 - Amazon Fine Food Reviews.csv — Raw dataset containing Amazon food product reviews.
 
 - sentiment_analysis.py — Main script for data preprocessing, model training, evaluation, and saving the model and vectorizer.
 
-##🧠 What the Script Does
+## 🧠 What the Script Does
 - Loads and cleans the dataset.
 
 - Converts review scores to sentiment labels:
@@ -28,7 +28,7 @@ This project applies natural language processing (NLP) techniques to perform sen
 
 - Saves the trained model and vectorizer using joblib for future use.
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 - Python
 
 - Pandas
